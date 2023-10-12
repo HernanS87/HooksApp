@@ -1,7 +1,8 @@
 // import { CountComponent } from "./components/CountComponent";
 // import { FormComponent } from "./components/FormComponent";
+// import { UsersComponent } from "./components/UsersComponent";
 
-import { UsersComponent } from "./components/UsersComponent";
+import { MemoExampleComponent } from "./components/MemoExampleComponent";
 
 export const HooksApp = () => {
   return (
@@ -10,7 +11,8 @@ export const HooksApp = () => {
       <hr />
       {/* <CountComponent /> */}
       {/* <FormComponent /> */}
-      <UsersComponent />
+      {/* <UsersComponent /> */}
+      <MemoExampleComponent />
     </>
   );
 };
